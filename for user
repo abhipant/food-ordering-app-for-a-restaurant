@@ -1,0 +1,35 @@
+# Define a class for the User
+class User:
+    def __init__(self, full_name, phone_number, email, address, password):
+        self.full_name = full_name
+        self.phone_number = phone_number
+        self.email = email
+        self.address = address
+        self.password = password
+    
+    # Method to register a new user
+    def register(self):
+        # Save the user details to the database or file
+    
+    # Method to log in a user
+    def log_in(self, email, password):
+        # Retrieve the user details from the database or file using the email
+        # Verify the password
+        # Return the user object if login is successful
+    
+    # Method to place a new order
+    def place_new_order(self, food_items):
+        # Retrieve the food items from the database or file using the food item ids
+        # Calculate the total amount to be paid
+        # Save the order details to the database or file
+    
+    # Method to view order history
+    def view_order_history(self):
+        # Retrieve all orders from the database or file for the current user
+        # Display the order history to the User
+    
+    # Method to update user profile
+    def update_profile(self, new_full_name, new_phone_number, new_address, new_password):
+        # Retrieve the user details from the database or file
+        # Update the user details with the new values
+        # Save the updated user details to the database or file
