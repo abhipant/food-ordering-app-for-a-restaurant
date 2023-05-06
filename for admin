@@ -1,0 +1,36 @@
+# Define a class for the food items
+class FoodItem:
+    def __init__(self, name, quantity, price, discount, stock):
+        self.food_id = # generate a unique id for the food item
+        self.name = name
+        self.quantity = quantity
+        self.price = price
+        self.discount = discount
+        self.stock = stock
+
+# Define a class for the Admin
+class Admin:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+    
+    # Method to add a new food item
+    def add_food_item(self, name, quantity, price, discount, stock):
+        food_item = FoodItem(name, quantity, price, discount, stock)
+        # Save the food item to the database or file
+    
+    # Method to edit an existing food item
+    def edit_food_item(self, food_id, new_name, new_quantity, new_price, new_discount, new_stock):
+        # Retrieve the food item from the database or file using the food_id
+        # Update the food item with the new details
+        # Save the updated food item to the database or file
+    
+    # Method to view all food items
+    def view_food_items(self):
+        # Retrieve all food items from the database or file
+        # Display the food items to the Admin
+    
+    # Method to remove a food item
+    def remove_food_item(self, food_id):
+        # Retrieve the food item from the database or file using the food_id
+        # Delete the food item
